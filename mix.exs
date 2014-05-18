@@ -26,6 +26,9 @@ defmodule MovieClient.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      { :httpotion, github: "myfreeweb/httpotion" },
+      { :jsx, github: "talentdeficit/jsx" }
+    ]
   end
 end

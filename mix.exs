@@ -13,7 +13,8 @@ defmodule MovieClient.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [applications: [],
-     mod: {MovieClient, []}]
+     mod: {MovieClient, []}, 
+     applications: [ :httpotion ]]
   end
 
   # Dependencies can be hex.pm packages:
